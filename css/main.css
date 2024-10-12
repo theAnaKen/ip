@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.bg-container {
+  background-image: url(../assets/bg1.jpg);
+  background-size: cover;
+  padding-block-end: 0.5em;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-family: "Pacifico";
+  width: 90vw;
+  margin: 0;
+  text-align: center;
+  color: #efefef;
+  font-size: 4rem;
+  font-style: italic;
+  text-decoration: underline;
+  margin-inline: 5vw;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+  overflow: hidden;
+}
+
+.open {
+  height: 65vh;
+  width: 90vw;
+  margin-inline: auto;
+  margin-block-start: 5vh;
+  background-color: #eee;
+  opacity: 50%;
+  border-radius: 1em;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  overflow-y: scroll;
+  margin-block-end: 1rem;
+}
+.open i {
+  position: absolute;
+  top: 8rem;
+  right: 5vw;
+  font-size: 1.5rem;
+}
+.open i:hover {
+  cursor: pointer;
+}
+.open h1 {
+  height: 4rem;
+  position: absolute;
+  top: -1rem;
+  font-family: Pacifico;
+  font-size: 3.5rem;
+  font-style: italic;
+  text-decoration: underline;
+}
+.open p {
+  font-family: poppins;
+  font-size: 1.5rem;
+}
+.open p a {
+  text-decoration: none;
+  color: #2a1b8f;
+}
+.open p a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.open span h2 {
+  -webkit-text-decoration: underline red double;
+          text-decoration: underline red double;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 2rem;
+}
+
+@media (max-width: 429px) {
+  .open h1 {
+    position: absolute;
+    top: 4rem;
+  }
+  .open i {
+    position: absolute;
+    top: 12rem;
+    right: 1.5rem;
+  }
+  .bst h1 {
+    font-size: 3rem !important;
+    position: absolute !important;
+    top: 5rem !important;
+  }
+}
+@media (max-width: 371px) {
+  .bst span {
+    position: relative;
+    top: 4rem;
+  }
+}
+@media (min-width: 850px) {
+  .grid_two_colums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_two_colums span {
+    overflow: scroll;
+  }
+}/*# sourceMappingURL=main.css.map */
