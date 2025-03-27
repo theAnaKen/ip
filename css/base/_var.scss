@@ -1,5 +1,5 @@
 $main-color: #d36be6;
-$main-saturation: 291;
+$main-hue: 291;
 
 $bg-color: #eee;
 
@@ -13,4 +13,4 @@ $dps-hue: 142;
 $dps-color: hsl($dps-hue, $saturation, $brightness);
 
 $h2-underline: $main-color;
-$outline-color: hsl($main-saturation $saturation, $brightness);
+$outline-color: hsl($main-hue, $saturation, $brightness);
